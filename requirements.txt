@@ -1,0 +1,37 @@
+Here’s the **requirements.txt** file that lists all the necessary Python libraries for this project:
+
+```
+tensorflow==2.11.0
+numpy==1.23.3
+pandas==1.5.1
+matplotlib==3.6.2
+scikit-learn==1.1.2
+Pillow==9.2.0
+seaborn==0.11.2
+opencv-python==4.6.0.66
+scipy==1.9.3
+h5py==3.7.0
+```
+
+### Explanation of Dependencies:
+
+- **tensorflow==2.11.0**: This is the main library used for building and training the neural network models. It also includes Keras for defining and training deep learning models.
+- **numpy==1.23.3**: A core library for numerical computing in Python. It’s used for working with arrays and matrices.
+- **pandas==1.5.1**: Provides data manipulation tools that might be useful when working with structured datasets.
+- **matplotlib==3.6.2**: A plotting library to visualize the training process and results.
+- **scikit-learn==1.1.2**: A library for machine learning, particularly useful for evaluating and testing models (e.g., confusion matrices, classification reports).
+- **Pillow==9.2.0**: A Python Imaging Library (PIL) fork, used to load, process, and display images in the GUI.
+- **seaborn==0.11.2**: Built on top of matplotlib, it makes it easier to generate statistical plots like heatmaps and bar charts.
+- **opencv-python==4.6.0.66**: OpenCV is a computer vision library used for image processing tasks.
+- **scipy==1.9.3**: Useful for scientific and technical computing, often used in conjunction with numpy.
+- **h5py==3.7.0**: This is used to read and save Keras models in `.h5` format.
+
+### To Install the Required Libraries:
+
+You can install the required dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command will install all the libraries listed in the `requirements.txt` file, ensuring your environment is properly set up for the project.
